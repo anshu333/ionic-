@@ -1,0 +1,109 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Cirlce
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+  
+  <ion-list class="circle-background">
+    <ion-item lines="none" color="success" class="ion-margin-bottom">
+      <ion-label class="ion-text-center">
+        MY CIRLCE
+      </ion-label>
+    </ion-item>
+
+
+    <ion-item color="light" detail lines="full">
+      <ion-label class="ion-text-center">
+        10 Cirlce
+      </ion-label>
+    </ion-item>
+    <ion-item color="light" detail lines="full">
+      <ion-label class="ion-text-center">
+        25 Cirlce
+      </ion-label>
+    </ion-item>
+    <ion-item color="light" detail lines="full">
+      <ion-label class="ion-text-center">
+        50 Cirlce
+      </ion-label>
+    </ion-item>
+
+    <ion-item color="light" detail lines="full">
+      <ion-label class="ion-text-center">
+        100 Cirlce
+      </ion-label>
+    </ion-item>
+
+    <!--addd in user circle-->
+
+    <ion-item lines="none" color="primary" [routerLink]="['/circle/user-circle']" class="ion-margin-bottom ion-margin-top">
+      <ion-label class="ion-text-center">
+        Add Users Circle
+      </ion-label>
+    </ion-item>
+
+
+    
+
+    <ion-item lines="none" color="secondary" class="ion-margin-bottom ion-margin-top" >
+      <ion-label class="ion-text-center">
+        Send Request
+      </ion-label>
+    </ion-item>
+
+
+    
+
+    <ion-item lines="none" color="warning" class="ion-margin-bottom ion-margin-top">
+      <ion-label class="ion-text-center">
+        Comming Request
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="none" color="light" class="ion-margin-bottom" (click)="commingreq(10)">
+      <ion-label class="ion-text-left">
+       10 cirlce Request
+      </ion-label>
+      <ion-label class="ion-text-right">
+        <ion-badge color="success" slot="end">10</ion-badge>
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="none" color="light" class="ion-margin-bottom" (click)="commingreq(10)">
+      <ion-label class="ion-text-left">
+       25 cirlce Request
+      </ion-label>
+      <ion-label class="ion-text-right">
+        <ion-badge color="success" slot="end">25</ion-badge>
+      </ion-label>
+    </ion-item>
+
+
+    <ion-item lines="none" color="light" class="ion-margin-bottom" (click)="commingreq(10)">
+      <ion-label class="ion-text-left">
+       50 cirlce Request
+      </ion-label>
+      <ion-label class="ion-text-right">
+        <ion-badge color="success" slot="end">50</ion-badge>
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="none" color="light" class="ion-margin-bottom" (click)="commingreq(10)">
+      <ion-label class="ion-text-left">
+       100 cirlce Request
+      </ion-label>
+      <ion-label class="ion-text-right">
+        <ion-badge color="success" slot="end">100</ion-badge>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

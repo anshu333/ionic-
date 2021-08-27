@@ -1,0 +1,119 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Users Cirlce
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-searchbar  placeholder="Enter Reffral Codes"></ion-searchbar>
+
+    <div *ngIf="list">
+  <ion-card>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJt-FDG7pdCqtru8m8nmsgF9Z-F_LfP49cDFloa8FyTityAhNK" />
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Anshu Verma</ion-card-title>
+    </ion-card-header>
+
+    <ion-button expand="block" color="success" (click)="addcircle()">Add In Circle</ion-button>
+
+    <ion-segment color="success">
+      <ion-segment-button checked layout="icon-bottom">
+        <ion-icon name="call"></ion-icon>
+        <ion-label>20</ion-label>
+      </ion-segment-button>
+      <ion-segment-button layout="icon-bottom">
+        <ion-icon name="heart"></ion-icon>
+        <ion-label>30</ion-label>
+      </ion-segment-button>
+      <ion-segment-button layout="icon-bottom">
+          <ion-icon name="chatboxes"></ion-icon>
+        <ion-label>20</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+
+  </ion-card>
+
+  <ion-card>
+
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJt-FDG7pdCqtru8m8nmsgF9Z-F_LfP49cDFloa8FyTityAhNK" />
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Sunil Muriya</ion-card-title>
+    </ion-card-header>
+
+    <ion-button expand="block" color="success"
+      class="ion-color ion-color-secondary ios button button-full button-solid ion-activatable ion-focusable hydrated">
+      Add In Circle</ion-button>
+
+    <ion-segment color="success">
+      <ion-segment-button checked layout="icon-bottom">
+          <ion-icon name="person-add"></ion-icon>
+        <ion-label>20</ion-label>
+      </ion-segment-button>
+      <ion-segment-button layout="icon-bottom">
+        <ion-icon name="heart"></ion-icon>
+        <ion-label>30</ion-label>
+      </ion-segment-button>
+      <ion-segment-button layout="icon-bottom">
+        <ion-icon name="chatboxes"></ion-icon>
+        <ion-label>20</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+
+  </ion-card>
+
+
+  <ion-card>
+
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJt-FDG7pdCqtru8m8nmsgF9Z-F_LfP49cDFloa8FyTityAhNK" />
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Akrosh Verma</ion-card-title>
+    </ion-card-header>
+
+    <ion-button expand="block" color="success"
+      class="ion-color ion-color-secondary ios button button-full button-solid ion-activatable ion-focusable hydrated">
+      Add In Cirlce</ion-button>
+
+    <ion-segment color="success">
+      <ion-segment-button checked layout="icon-bottom">
+        <ion-icon name="person-add"></ion-icon>
+        <ion-label>20</ion-label>
+      </ion-segment-button>
+      <ion-segment-button layout="icon-bottom">
+        <ion-icon name="heart"></ion-icon>
+        <ion-label>30</ion-label>
+      </ion-segment-button>
+      <ion-segment-button layout="icon-bottom">
+          <ion-icon name="chatboxes"></ion-icon>
+        <ion-label>20</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-card>
+
+</div>
+
+  <ion-card class="welcome-card" *ngIf="pay">
+    <ion-button expand="full" class="ion-padding" color="tertiary" (click)="back()">
+      Back
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+    </ion-button>
+    <ion-card-header class="ion-margin-top">
+      <ion-card-title class="ion-text-center">Anshu Verma</ion-card-title>
+      <ion-card-subtitle class="ion-text-center">10 RS</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-textarea placeholder="Enter more information here..."></ion-textarea>
+      </ion-item>
+      <ion-button expand="full" class="ion-margin-top">Pay now</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
