@@ -11,6 +11,14 @@ const routes: Routes = [
   {
     path: 'user-circle',
     loadChildren: () => import('./user-circle/user-circle.module').then( m => m.UserCirclePageModule)
+  },
+  {
+    path: 'my-circle',
+    loadChildren: () => import('./my-circle/my-circle.module').then( m => m.MyCirclePageModule)
+  },
+  {
+    path: 'send-request',
+    loadChildren: () => import('./send-request/send-request.module').then( m => m.SendRequestPageModule)
   }
 ];
 

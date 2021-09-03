@@ -1,0 +1,169 @@
+    .card {
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        // background: #fff;
+        overflow-y: scroll;
+        // padding-bottom: 60px;
+        padding-top: 40px;
+    }
+    
+    .adiv {
+        background: #428cff;
+        border-radius: 15px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        font-size: 12px;
+        height: 46px;
+        padding: 14px 15px;
+    }
+    
+    .chat {
+        border: none;
+        background: #e6f0ff;
+        font-size: 12px;
+        border-radius: 20px;
+        color: #000;
+    }
+    
+    .bg-white {
+        border: 1px solid #E7E7E9;
+        font-size: 12px;
+        border-radius: 20px;
+        color: #fff;
+    }
+    
+    .myvideo img {
+        border-radius: 20px
+    }
+    
+    .dot {
+        font-weight: bold
+    }
+    
+    .form-control {
+        border-radius: 0px;
+        border: 1px solid #F0F0F0;
+        font-size: 8px
+    }
+    
+    .form-control:focus {
+        box-shadow: none
+    }
+    
+    .form-control::placeholder {
+        font-size: 8px;
+        color: #C4C4C4
+    }
+    
+    .container.d-flex.justify-content-center {
+        position: relative;
+        bottom: 70px;
+        right: 0px;
+        width: 100%;
+        // height: 400px;
+    }
+    
+    .p-3 {
+        padding: 1rem!important;
+    }
+    
+    .flex-row {
+        -ms-flex-direction: row!important;
+        flex-direction: row!important;
+    }
+    
+    .d-flex {
+        display: -ms-flexbox!important;
+        display: flex!important;
+    }
+    
+    .form-group.px-3 {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        // right: 10px;
+        textarea {
+            width: 100%;
+            padding: 10px;
+            color: #000;
+            font-size: 12px;
+            height: 60px;
+            margin-bottom: -4px;
+            padding-right: 100px;
+        }
+        p.send-icon {
+            position: absolute;
+            top: 50%;
+            z-index: 9999;
+            color: #428cff !important;
+            right: -31px;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            height: 62px;
+            font-size: 24px;
+            padding: 20px;
+        }
+    }
+    
+    // .d-flex.flex-row.justify-content-between.p-3.adiv.text-white {
+    //     position: fixed;
+    //     width: 300px;
+    //     margin-top: 0px;
+    // }
+    .total-balance.two {
+        p {
+            font-size: 14px !important;
+            font-weight: 400 !important;
+            text-transform: inherit !important;
+            margin-bottom: 15px !important;
+        }
+        button {
+            width: 24px !important;
+            height: 24px !important;
+            padding: 5px !important;
+            margin-left: 3px;
+            font-size: 14px;
+            background: #428cff !important;
+        }
+    }
+    
+    .total-balance.three {
+        p {
+            margin-bottom: 15px !important;
+        }
+    }
+    
+    p.chat-time {
+        margin: 0;
+        font-size: 10px;
+        padding: 0px 15px;
+    }
+    
+    p.chat-time.text-right {
+        text-align: right;
+    }
+    
+    .card.mt-5 {
+        h5 {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    
+    p.send-icon-doc {
+        position: absolute;
+        top: 50%;
+        z-index: 9999;
+        color: #428cff !important;
+        right: 54px;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        height: 62px;
+        font-size: 24px;
+        padding: 20px 0px;
+    }
+    
+    .d-flex.flex-row.p-3.right-text {
+        justify-content: flex-end;
+    }

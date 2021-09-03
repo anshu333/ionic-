@@ -10,6 +10,21 @@ ion-title {
     padding-right: 10px;
     margin: 19px 10px;
     color: #fff;
+    position: relative;
+    sup {
+        background-color: #428cff;
+        width: 16px !important;
+        height: 16px !important;
+        display: inline-block;
+        border-radius: 100px;
+        top: -15px;
+        left: -7px;
+        padding: 8px 5px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 10px;
+        font-weight: bold;
+    }
 }
 
 .p-0 {
@@ -178,4 +193,27 @@ ion-title {
     position: fixed;
     width: 300px;
     margin-top: -50px;
+}
+
+.total-balance.two {
+    p {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        text-transform: inherit !important;
+        margin-bottom: 15px !important;
+    }
+    button {
+        width: 24px !important;
+        height: 24px !important;
+        padding: 5px !important;
+        margin-left: 3px;
+        font-size: 14px;
+        background: #428cff !important;
+    }
+}
+
+.total-balance.three {
+    p {
+        margin-bottom: 15px !important;
+    }
 }

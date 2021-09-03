@@ -1,0 +1,56 @@
+    // .user-name {
+    //     display: inline-block;
+    //     width: calc(100% - 80px);
+    //     vertical-align: top;
+    //     padding-left: 15px;
+    //     text-align: left;
+    //     font-family: "Montserrat", sans-serif !important;
+    // }
+    .user-img-box {
+        img {
+            width: 100%;
+        }
+    }
+    
+    ion-segment-button {
+        width: 33% !important;
+        min-width: auto !important;
+        max-width: initial;
+        font-size: 10px;
+        color: #fff;
+        ion-icon {
+            margin: 0px;
+            font-size: 14px;
+        }
+        ion-label {
+            margin: 0px;
+            font-family: "Montserrat", sans-serif !important;
+        }
+    }
+    
+    ion-card {
+        font-family: "Montserrat", sans-serif !important;
+        ion-card-header {
+            padding: 0px;
+            font-family: "Montserrat", sans-serif !important;
+            ion-card-title {
+                font-size: 18px;
+                font-weight: 600;
+                padding-bottom: 0px;
+                padding-top: 10px;
+                font-family: "Montserrat", sans-serif !important;
+            }
+        }
+    }
+    
+    ion-button,
+    button,
+    button-inner {
+        border-radius: 100px;
+        overflow: hidden;
+        text-transform: initial;
+        font-family: "Montserrat", sans-serif !important;
+        letter-spacing: 0px;
+        width: 85%;
+        margin: 10px auto 10px;
+    }
